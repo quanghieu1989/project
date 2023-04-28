@@ -1,0 +1,74 @@
+.kitty{
+    width: 30px;
+    height: 30px;   
+}
+.user{
+    width:50px;
+    height: 30px; 
+}
+.flag{
+    width: 30px;
+    height: 50px;
+}
+.number{
+    border: 1px solid black;
+    width: 55px;
+    height: 55px;
+    border-radius: 80%;
+    background-color: rgb(187, 117, 222);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 6px;
+}
+@media screen and (width <=992px) {
+    #Team{
+        margin-top: 0px;
+    }
+    #Scopes {
+        margin-top: 180px;
+    }
+    #Primary{
+        margin-top: 0px;
+    }
+    #Timeline{
+        margin-top: -150px;
+    }
+}
+@media screen and (294px<width <366px) {
+    #Scopes {
+        margin-top: 180px !important;
+    }
+}
+@media screen and (366px<=width <=768px) {
+    #Scopes {
+        margin-top: 190px !important;
+    }
+}
+
+@media screen and (232px<width <=294px) {
+    #Scopes {
+        margin-top: 210px !important;
+    }
+}
+@media screen and (184px<width <=232px) {
+    #Scopes {
+        margin-top: 200px !important;
+    }
+}
+@media screen and (width <=184px) {
+    #Scopes {
+        margin-top: 180px !important;
+    }
+}
+@media screen and (992px<width) {
+    #GoalsTeam{
+        height: 500px !important;
+    }
+    #ScopesPrimary{
+        height: 500px !important;
+    }
+    #Timeline{
+        height: 856px !important;
+    }
+}
