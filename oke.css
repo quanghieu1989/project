@@ -40,9 +40,14 @@
         margin-top: 180px !important;
     }
 }
-@media screen and (366px<=width <=768px) {
+@media screen and (366px<=width <=442px) {
     #Scopes {
         margin-top: 190px !important;
+    }
+}
+@media screen and (442px<width <=768px) {
+    #Scopes {
+        margin-top: 180px !important;
     }
 }
 
@@ -59,6 +64,11 @@
 @media screen and (width <=184px) {
     #Scopes {
         margin-top: 180px !important;
+    }
+}
+@media screen and (width <=148px) {
+    #Scopes {
+        margin-top: 200px !important;
     }
 }
 @media screen and (992px<width) {
